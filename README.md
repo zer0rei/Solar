@@ -32,5 +32,4 @@ A static website to explore the [Solar System](http://zer0rei.github.io/solar/).
 <img alt="neptune" src="images/illustrations/neptune_illustration.png" width="150">
 
 ## Licence
-
-HE © 2016
+<a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a>
