@@ -1,0 +1,45 @@
+#wrapper {
+	background-color: #0A0A0A;
+	font-size: 1.3em;
+	color: #EEEEEE;
+	padding: 3em 0;
+}
+
+#wrapper hr {
+	opacity: 0.2;
+}
+
+#wrapper a {
+	color: #8FCDFF;
+}
+
+#wrapper a:hover {
+	text-decoration: none;
+	color: #D4E8FE;
+}
+
+#wrapper p {
+	opacity: 0.9;
+}
+
+#wrapper h1 {
+	font-size: 4em;
+	color: white;
+	margin-bottom: 0.5em;
+}
+
+#wrapper h3 {
+	color: #3BAED7;
+	font-size: 2em;
+}
+
+#wrapper ul strong {
+	margin-right: 0.6em;
+	color: #B5E0FF;
+}
+
+@media screen and (max-width: 480px) {
+	#wrapper {
+		font-size: 1em;
+	}
+}

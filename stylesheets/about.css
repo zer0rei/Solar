@@ -1,0 +1,30 @@
+#wrapper {
+	background-image: url("../images/others/orion-nebula-blurred.jpg");
+	background-size: cover;
+	color: white;
+	position: relative;
+}
+
+#layer {
+	background-color: rgba(0, 0, 0, 0.7); 
+}
+
+#title-box p {
+	opacity: 0.8;
+}
+
+#title-box a {
+	color: #6da9e2;
+}
+
+#title-box p a:hover {
+	text-decoration: none;
+	position: relative;
+	top: -0.15em;
+}
+
+@media screen and (max-width: 300px) {
+	#title-box h1 {
+		font-size: 1.5em;
+	}	
+}

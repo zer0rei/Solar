@@ -1,0 +1,41 @@
+.navbar {
+	margin: 0;
+	border-radius: 0;
+	background-color: rgba(0, 0, 0, 0.8);
+	border-color: rgba(0, 0, 0, 0.3);
+}
+
+.navbar-brand img {
+	margin-top: -13%;
+}
+
+.footer {
+	background-color: #121212;
+	color: #EEEEEE;
+	padding: 0.5em 0;
+}
+
+.footer a {
+	margin-left: 1.5em;
+	color: #EEEEEE;
+	opacity: 0.6;
+}
+
+.footer a:hover {
+	opacity: 1;
+}
+
+#footer-info {
+	opacity: 0.3;
+	float: left;
+}
+
+#footer-media {
+	float: right;
+}
+
+@media screen and (max-device-width: 768px) {
+	.footer a {
+		opacity: 1;
+	}
+}
