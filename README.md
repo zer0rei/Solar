@@ -5,19 +5,19 @@ A static website to explore the [Solar System](http://zer0rei.github.io/solar/).
 ## Illustrations
 
 #### Sun
-<img alt="sun" src="images/illustrations/sun_illustration.png" width="320">
+<img alt="sun" src="images/illustrations/sun_illustration.png" width="310">
 
 #### Mercury
-<img alt="mercury" src="images/illustrations/mercury_illustration.png" width="70">
+<img alt="mercury" src="images/illustrations/mercury_illustration.png" width="80">
 
 #### Venus
-<img alt="venus" src="images/illustrations/venus_illustration.png" width="110">
+<img alt="venus" src="images/illustrations/venus_illustration.png" width="120">
 
 #### Earth
-<img alt="earth" src="images/illustrations/earth_illustration.png" width="110">
+<img alt="earth" src="images/illustrations/earth_illustration.png" width="120">
 
 #### Mars
-<img alt="mars" src="images/illustrations/mars_illustration.png" width="90">
+<img alt="mars" src="images/illustrations/mars_illustration.png" width="100">
 
 #### Jupiter
 <img alt="jupiter" src="images/illustrations/jupiter_illustration.png" width="200">
