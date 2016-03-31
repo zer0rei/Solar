@@ -1,16 +1,21 @@
 $(document).ready(function() {
 	// Layout
+	// // //
 
 	// Elements Heights and Margins
-	var windowHeight = $(window).height(),
-		titleBoxHeight = $("#title-box").height(),
-		navbarHeight = $(".navbar").height(),
-		marginTopTitle = windowHeight - titleBoxHeight - 50;
-	$(".page").css("min-height", windowHeight);
-	$("#title-box").css("margin-top", marginTopTitle);
-	if (windowHeight < (titleBoxHeight + navbarHeight + 100)) {
-		$("#title-box").css("margin-top", navbarHeight + 50);
-	}
+	$(window).resize(function() {
+		var windowHeight = $(window).height(),
+			titleBoxHeight = $("#title-box").height(),
+			navbarHeight = $(".navbar").height(),
+			marginTopTitle = windowHeight - titleBoxHeight - 50;
+		$(".page").css("min-height", windowHeight);
+		$("#title-box").css("margin-top", marginTopTitle);
+		if (windowHeight < (titleBoxHeight + navbarHeight + 100)) {
+			$("#title-box").css("margin-top", navbarHeight + 50);
+		}
+	});
+
+	$(window).resize();
 
 	// Explore-Button scroll
 	var $root = $("html, body");
